@@ -1,0 +1,15 @@
+.iframe{
+    width: 80%;
+    margin: 1% 4% 0% 10%;
+    border: none;
+
+
+}
+
+@media only screen and (max-width: 1292px) {
+    .iframe{
+        // margin: none;    
+       margin: 0;
+       width: 100%;
+    }
+  }

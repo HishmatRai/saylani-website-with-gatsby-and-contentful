@@ -3,11 +3,18 @@ import style from '../styles/index.module.scss'
 import '@fortawesome/fontawesome-free/css/all.min.css';
 import 'bootstrap-css-only/css/bootstrap.min.css';
 import 'mdbreact/dist/css/mdb.css';
-
+import Navbar from './../components/home/nabvar'
 const IndexPage = () => (
 <div className={style.maindiv}>
+ 
     <p>Welcome to your new Gatsby site.</p>
     <p>Now go build something great.</p>   
+
+    <Navbar />
+    <p>Home page.</p>
+    <p>Now go build something great.</p>
+   
+
     </div>
 )
 
