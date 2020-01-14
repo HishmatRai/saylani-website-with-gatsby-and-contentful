@@ -14,7 +14,6 @@ const IndexPage = () => (
     <Navbar />
     <p>Home page.</p>
     <p>Now go build something great.</p>
-   
     </div>
 )
 
