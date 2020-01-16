@@ -1,6 +1,7 @@
 import React from "react";
 import { Link } from "gatsby";
 import homeStyle from '../styles/index.module.scss'
+import "../styles/index.module.scss"
 import '@fortawesome/fontawesome-free/css/all.min.css';
 
 const IndexPage = () => (
