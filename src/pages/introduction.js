@@ -1,13 +1,16 @@
 import React from "react"
-import style from '../styles/introduction.module.scss'
-
+import style from "../styles/introduction.module.scss"
+import introduction from "./../images/introducation.jpg"
+import Card from './../components/card/card'
 
 const Introduction = () => (
-<div className={style.maindiv}>
-    <p>Welcome to your new Gatsby site.</p>
-    <p>Now go build something great.</p>
-   
-    </div>
+  <div>
+    <img width="100%" src={introduction} />
+
+    <Card />
+  </div>
+
+
 )
 
 export default Introduction

@@ -4,7 +4,13 @@ import homeStyle from '../styles/index.module.scss'
 import "../styles/index.module.scss"
 import '@fortawesome/fontawesome-free/css/all.min.css';
 
+import Introduction from './introduction'
+
+
+import Navbar from './../components/home/nabvar'
+
 const IndexPage = () => (
+
     <div className={homeStyle.container}>
       <div>Slider</div>
       <div>News</div>
@@ -254,6 +260,12 @@ const IndexPage = () => (
 
         </div>
       </div>
+
+<div className={style.maindiv}>
+    <Navbar />
+    <p>Home page.</p>
+    <p>Now go build something great.</p>
+
     </div>
 )
 
