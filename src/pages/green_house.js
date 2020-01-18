@@ -1,9 +1,11 @@
 import React from "react"
 import style from "../styles/green_house.module.scss"
 import GreenHouseImg from "./../images/Green-House.jpg"
-
+import Navbar from './../components/home/nabvar'
+import Footer from './../components/home/footer'
 const GreenHouse = () => (
   <div className={style.maindiv}>
+    <Navbar />
     <img src={GreenHouseImg} width="100%" />
     <br/>
     <br/>
@@ -28,6 +30,7 @@ const GreenHouse = () => (
       students, free legal aid services, clean drinking water facilities,
       gardening arrangements and organization of co-curricular activities.
     </p>
+    <Footer />
   </div>
 )
 

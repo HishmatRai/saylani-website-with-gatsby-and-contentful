@@ -1,9 +1,11 @@
 import React from "react"
 import style from "../styles/saylani_incubator.module.scss"
 import saylaniIncubator from "./../images/Saylani-Incubator.jpg"
-
+import Navbar from './../components/home/nabvar'
+import Footer from './../components/home/footer'
 const SaylaniIncubator = () => (
   <div className={style.maindiv}>
+    <Navbar />
     <img src={saylaniIncubator} width="100%" />
     <br />
     <br />
@@ -22,6 +24,7 @@ const SaylaniIncubator = () => (
       rapidly growing I.T industry.
       
     </p>
+    <Footer/>
   </div>
 )
 

@@ -86,10 +86,10 @@ const Navbar = () => (
                   </ul>
                 </li>
                 <li class="natestNav">
-                  <a href="#">Saylani-Incubator</a>
+                  <a href="saylani_incubator">Saylani-Incubator</a>
                 </li>
                 <li class="natestNav">
-                  <a href="#">Green House</a>
+                  <a href="green_house">Green House</a>
                 </li>
               </ul>
             </li>
@@ -199,7 +199,7 @@ const Navbar = () => (
           <input type="checkbox" id="drop-1" />
           <ul>
             <li class="natestNav">
-              <a href="#">Bank Detail</a>
+              <a href="bank_details">Bank Detail</a>
             </li>
             <li class="natestNav">
               <a href="sadqua">Sadqa</a>

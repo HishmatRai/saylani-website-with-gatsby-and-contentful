@@ -2,14 +2,15 @@ import React from "react"
 import style from './../styles/bank_details.module.scss'
 import bankdetale from "./../images/bankdetale.jpeg"
 import TableDetail from './../components/bankdetaletable/bankdetile_table'
-
+import Navbar from './../components/home/nabvar'
+import Footer from './../components/home/footer'
 // import { makeStyles } from '@material-ui/core/styles';
 import Grid from '@material-ui/core/Grid';
 
 
 const BankDetails = () => (
     <div >
-
+<Navbar />
 
         <div>
             <img src={bankdetale} width="100%" />
@@ -56,7 +57,7 @@ const BankDetails = () => (
 
             <TableDetail/>
             </Grid>
-
+<Footer />
 
 
     </div>
