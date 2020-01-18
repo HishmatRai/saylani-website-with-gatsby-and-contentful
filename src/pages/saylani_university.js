@@ -1,9 +1,12 @@
 import React from "react"
 import style from "../styles/saylani_city.module.scss"
 import University from "./../images/Saylani-University.jpg"
+import Navbar from './../components/home/nabvar'
+import Footer from './../components/home/footer'
 
 const SaylaniUniversity = () => (
   <div className={style.maindiv}>
+    <Navbar />
     <img src={University} width="100%" />
     <div className={style.div}>
       <p className={style.p1}>
@@ -13,6 +16,7 @@ const SaylaniUniversity = () => (
         <span style={{ fontWeight: 600 }}> Dr. Abdul Qadeer Khan.</span>
       </p>
     </div>
+    <Footer />
   </div>
 )
 

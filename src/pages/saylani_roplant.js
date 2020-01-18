@@ -1,9 +1,11 @@
 import React from "react"
 import style from "../styles/saylani_roplant.module.scss"
 import roplant from "./../images/roplant.jpg"
-
+import Navbar from './../components/home/nabvar'
+import Footer from './../components/home/footer'
 const SaylaniRoplant = () => (
   <div>
+    <Navbar />
     <img width="100%" src={roplant} />
     <br />
     <br />
@@ -35,6 +37,7 @@ const SaylaniRoplant = () => (
       We have also signed MOU with Sindh Rangers, Sindh Police, Mayor Karachi
       and Commissioner Karachi for association in installation of RO plants.
     </p>
+    <Footer ></Footer>
   </div>
 )
 

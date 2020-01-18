@@ -1,9 +1,11 @@
 import React from "react"
 import style from "../styles/saylani_blood_bank.module.scss"
 import BloodBank from "./../images/Saylani-Blood-Bank-Thalessimia-Centre.jpg"
-
+import Navbar from './../components/home/nabvar'
+import Footer from './../components/home/footer'
 const SaylaniBloodBank = () => (
   <div className={style.maindiv}>
+    <Navbar />
     <img src={BloodBank} width="100%" />
     <br />
     <br />
@@ -43,6 +45,7 @@ const SaylaniBloodBank = () => (
       related diseases in order to keep patients, their families and the
       extended medical community abreast of modern research & developments.
     </p>
+    <Footer />
   </div>
 )
 

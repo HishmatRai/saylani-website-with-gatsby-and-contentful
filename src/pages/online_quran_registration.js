@@ -3,6 +3,7 @@ import style from '../styles/online_quran_registration.module.scss'
 import Grid from '@material-ui/core/Grid';
 import { MDBIcon } from "mdbreact";
 import Navbar from './../components/home/nabvar'
+import Footer from './../components/home/footer'
 
 const OnlineQuranRegistration = () => (
     <div className="mainDiv">
@@ -165,6 +166,7 @@ const OnlineQuranRegistration = () => (
                 </center>
             </Grid>
         </Grid>
+        <Footer/>
     </div>
 )
 

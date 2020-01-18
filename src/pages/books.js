@@ -3,6 +3,7 @@ import style from '../styles/books.module.scss'
 import BookCard from "../components/BooksCard/booksCard"
 import Grid from '@material-ui/core/Grid';
 import Navbar from './../components/home/nabvar'
+import Footer from './../components/home/footer'
 
 
 const Books = () => (
@@ -74,7 +75,7 @@ const Books = () => (
 
 
         </Grid>
-
+<Footer />
 
     </div>
 )

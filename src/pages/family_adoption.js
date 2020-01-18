@@ -1,9 +1,11 @@
 import React from "react"
 import style from "../styles/family_adoption.module.scss"
 import Image from "./../images/Family-Adoption.jpg"
-
+import Navbar from './../components/home/nabvar'
+import Footer from './../components/home/footer'
 const FamilyAdoption = () => (
   <div className={style.maindiv}>
+    <Navbar />
     <img src={Image} width="100%" />
     <p className={style.p1}>
       While we are always happy to lend a helping hand to individuals, helping a
@@ -15,6 +17,7 @@ const FamilyAdoption = () => (
       adopted more than 7,500 families and our wish is to support many more in
       the future.
     </p>
+    <Footer />
   </div>
 )
 

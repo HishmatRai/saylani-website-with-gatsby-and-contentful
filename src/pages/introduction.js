@@ -4,9 +4,12 @@ import Paper from "@material-ui/core/Paper"
 import Styles from "../styles/introduction.module.scss"
 import DetailCards from "../components/card/card"
 import mediaImg from "./../images/slider.png"
+import Navbar from './../components/home/nabvar'
+import Footer from './../components/home/footer'
 
 const IndexPage = () => (
   <div>
+    <Navbar />
     <div className="detailDiv">
       <img
         src="https://www.saylaniwelfare.com/uploads/2018-30-111543574214.jpg"
@@ -480,6 +483,7 @@ const IndexPage = () => (
         className={Styles.vertical_line}
       ></Grid>
     </Grid>
+    <Footer />
     {/* ------------------------- end Program Structure ------------------------ */}
   </div>
 )

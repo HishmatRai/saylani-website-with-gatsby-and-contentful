@@ -1,6 +1,6 @@
 import React from "react"
 import { MDBCol, MDBContainer, MDBRow, MDBFooter } from "mdbreact"
-import Styles from '../styles/footer.module.scss'
+import Styles from './footer.module.scss'
 import { MdPhone } from "react-icons/md"
 import { AiOutlineMail,AiFillTwitterCircle } from "react-icons/ai"
 import {TiSocialFacebook, TiWorld, TiSocialYoutubeCircular,TiSocialInstagram,TiSocialTwitter} from "react-icons/ti"

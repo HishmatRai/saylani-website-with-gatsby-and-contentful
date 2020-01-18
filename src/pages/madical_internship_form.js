@@ -3,6 +3,7 @@ import style from '../styles/madical_internship_form.module.scss'
 import Grid from '@material-ui/core/Grid';
 import { MDBIcon } from "mdbreact";
 import Navbar from './../components/home/nabvar'
+import Footer from './../components/home/footer'
 
 const MadicalInternshipForm = () => (
     <div className="mainDiv">
@@ -128,6 +129,7 @@ const MadicalInternshipForm = () => (
                 </center>
             </Grid>
         </Grid>
+        <Footer />
     </div>
 )
 

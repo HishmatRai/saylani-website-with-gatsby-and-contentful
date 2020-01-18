@@ -1,8 +1,11 @@
 import React from "react"
 import style from "../styles/online_quran_admission.module.scss"
 import AdmissionImage from "./../images/Online-Quran-Admission.jpeg"
+import Navbar from './../components/home/nabvar'
+import Footer from './../components/home/footer'
 const OnlineQuranAdmission = () => (
   <div className={style.maindiv}>
+    <Navbar />
     <img src={AdmissionImage} width="100%" />
     <div className={style.div}>
       <p className={style.p1}></p>
@@ -24,6 +27,7 @@ const OnlineQuranAdmission = () => (
         15.Australia 16.Austria 17.Burma 18.Muscat 19.Bangladesh 20 Abu Dhabi
       </p>
     </div>
+    <Footer />
   </div>
 )
 

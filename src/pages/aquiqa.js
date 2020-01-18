@@ -1,8 +1,12 @@
 import React from "react"
 import style from '../styles/aquiqa.module.scss'
 import { MDBRow, MDBCol } from "mdbreact";
-
+import Navbar from './../components/home/nabvar'
+import Footer from './../components/home/footer'
 const Aquiqa = () => (
+    <div>
+        <Navbar />
+ 
     <div style={{ width: "98%", margin: "0 auto" }}>
         <MDBRow style={{ width: "98%", margin: "0 auto" }}>
             <MDBCol xl="8" >
@@ -98,6 +102,8 @@ const Aquiqa = () => (
                 </div>
             </MDBCol>
         </MDBRow>
+    </div>
+    <Footer />
     </div>
 )
 

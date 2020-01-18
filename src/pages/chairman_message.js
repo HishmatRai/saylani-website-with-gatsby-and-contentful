@@ -1,9 +1,13 @@
 import React from "react"
 import style from "../styles/chairman_message.module.scss"
 import Chairman from "./../images/Chairman-Message.jpg"
+import Navbar from './../components/home/nabvar'
+import Footer from './../components/home/footer'
+
 
 const ChairmanMessage = () => (
   <div className={style.maindiv}>
+    <Navbar/>
     <img src={Chairman} width="100%" />
     <br/>
     <br/>   
@@ -46,6 +50,7 @@ const ChairmanMessage = () => (
       <p className={style.p2}>Muhammad Bashir Farooqi</p>
       <p className={style.p2}>Saylani Welfare International Trust</p>
     </p>
+    <Footer/>
   </div>
 )
 

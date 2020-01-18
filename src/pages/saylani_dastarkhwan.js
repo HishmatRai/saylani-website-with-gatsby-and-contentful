@@ -2,9 +2,11 @@ import React from "react"
 import style from "../styles/saylani_dastarkhwan.module.scss"
 
 import Dastarkhan from "./../images/dastarkhwan.jpg"
-
+import Footer from './../components/home/footer'
+import Navbar from './../components/home/nabvar'
 const SaylaniDastarkhwan = () => (
   <div>
+    <Navbar />
     <img width="100%" src={Dastarkhan} />
    <br />
    <br /> 
@@ -28,6 +30,7 @@ const SaylaniDastarkhwan = () => (
       is served with respect and dignity and it is our highest honor to serve
       them.
     </p>
+    <Footer />
   </div>
 )
 

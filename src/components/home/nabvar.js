@@ -39,13 +39,13 @@ const Navbar = () => (
           <input type="checkbox" id="drop-1" />
           <ul>
             <li class="natestNav">
-              <a href="#">Introduction</a>
+              <a href="introduction">Introduction</a>
             </li>
             <li class="natestNav">
-              <a href="#">Chairman Message</a>
+              <a href="chairman_message">Chairman Message</a>
             </li>
             <li class="natestNav">
-              <a href="#">Saylani Annual Report</a>
+              <a href="saylani_annual_report">Saylani Annual Report</a>
             </li>
           </ul>
         </li>
@@ -72,16 +72,16 @@ const Navbar = () => (
                   <input type="checkbox" id="drop-1" />
                   <ul>
                     <li class="natestNav">
-                      <a href="#">SMIT Programs</a>
+                      <a href="smit_Programs">SMIT Programs</a>
                     </li>
                     <li class="natestNav">
-                      <a href="#">Faculty</a>
+                      <a href="faculty">Faculty</a>
                     </li>
                     <li class="natestNav">
-                      <a href="#">Result</a>
+                      <a href="result">Result</a>
                     </li>
                     <li class="natestNav">
-                      <a href="#">Entry Test Schedule</a>
+                      <a href="entry_test_schedule">Entry Test Schedule</a>
                     </li>
                   </ul>
                 </li>
@@ -101,10 +101,10 @@ const Navbar = () => (
               <input type="checkbox" id="drop-1" />
               <ul>
                 <li class="natestNav">
-                  <a href="#">Saylani Blood Bank Thalessimia Centre</a>
+                  <a href="saylani_blood_bank">Saylani Blood Bank Thalessimia Centre</a>
                 </li>
                 <li class="natestNav">
-                  <a href="#">Saylani Clinic Hospital</a>
+                  <a href="saylani_hospital">Saylani Clinic Hospital</a>
                 </li>
                 <li class="natestNav">
                   <a href="madical_internship_form">Medical Intern Form</a>
@@ -119,30 +119,30 @@ const Navbar = () => (
               <input type="checkbox" id="drop-1" />
               <ul>
                 <li class="natestNav">
-                  <a href="#">Family Adoption</a>
+                  <a href="family_adoption">Family Adoption</a>
                 </li>
                 <li class="natestNav">
-                  <a href="#">Wedding Help</a>
+                  <a href="wedding_help">Wedding Help</a>
                 </li>
               </ul>
             </li>
             <li>
-              <a href="#">Hajj Application Form</a>
+              <a href="hajj_application_form">Hajj Application Form</a>
             </li>
             <li>
-              <a href="#">Saylani Dastarkhwan</a>
+              <a href="saylani_dastarkhwan">Saylani Dastarkhwan</a>
             </li>
             <li>
-              <a href="#">Saylani RO Plant</a>
+              <a href="saylani_roplant">Saylani RO Plant</a>
             </li>
             <li>
-              <a href="#">Online Sadqah</a>
+              <a href="online_saquah">Online Sadqah</a>
             </li>
             <li>
-              <a href="#">Online Taweezat Istikhara</a>
+              <a href="online_taweezat">Online Taweezat Istikhara</a>
             </li>
             <li>
-              <a href="#">Saylani Job Bank</a>
+              <a href="saylani_job_bank">Saylani Job Bank</a>
             </li>
             <li>
               <label for="drop-1" class="toggle">
@@ -152,7 +152,7 @@ const Navbar = () => (
               <input type="checkbox" id="drop-1" />
               <ul>
                 <li class="natestNav">
-                  <a href="#">Online Quran Admission</a>
+                  <a href="online_quran_admission">Online Quran Admission</a>
                 </li>
                 <li class="natestNav">
                   <a href="#">Quran App (Tafteesh)</a>
@@ -178,10 +178,10 @@ const Navbar = () => (
           <input type="checkbox" id="drop-1" />
           <ul>
             <li class="natestNav">
-              <a href="#">Saylani University</a>
+              <a href="saylani_university">Saylani University</a>
             </li>
             <li class="natestNav">
-              <a href="#"> Saylani City</a>
+              <a href="saylani_city"> Saylani City</a>
             </li>
           </ul>
         </li>
@@ -202,13 +202,13 @@ const Navbar = () => (
               <a href="#">Bank Detail</a>
             </li>
             <li class="natestNav">
-              <a href="#">Sadqa</a>
+              <a href="sadqua">Sadqa</a>
             </li>
             <li class="natestNav">
-              <a href="#">Aqiqa</a>
+              <a href="aquiqa">Aqiqa</a>
             </li>
             <li class="natestNav">
-              <a href="#">Other Donation</a>
+              <a href="other_donation">Other Donation</a>
             </li>
           </ul>
         </li>

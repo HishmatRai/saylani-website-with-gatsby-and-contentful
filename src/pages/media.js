@@ -1,6 +1,7 @@
 import React from "react"
 import style from "../styles/media.module.scss"
 import Navbar from './../components/home/nabvar'
+import Footer from './../components/home/footer'
 
 import mediaImg from "./../images/media.jpg"
 
@@ -329,6 +330,7 @@ const Media = () => (
       </div>
       
     </div>
+    <Footer />
   </div>
 )
 

@@ -1,9 +1,11 @@
 import React from "react"
 import style from "../styles/online_taweezat.module.scss"
 import Taweezat from "./../images/ishtkhara.jpg"
-
+import Navbar from './../components/home/nabvar'
+import Footer from './../components/home/footer'
 const OnlineTaweezat = () => (
   <div className={style.maindiv}>
+    <Navbar />
     <img src={Taweezat} width="100%" />
     <div className={style.div}>
       <p className={style.p1}>
@@ -24,6 +26,7 @@ const OnlineTaweezat = () => (
       <p className={style.p1}>Email : <a href="mailto:istikhara@saylaniwelfare.com  ">istikhara@saylaniwelfare.com</a></p>
 
     </div>
+    <Footer />
   </div>
 )
 

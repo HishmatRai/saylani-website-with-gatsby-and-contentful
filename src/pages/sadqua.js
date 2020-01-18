@@ -1,9 +1,12 @@
 import React from "react";
 import { MDBRow, MDBCol } from "mdbreact";
 import style from '../styles/sadqua.module.scss';
-
+import Navbar from './../components/home/nabvar'
+import Footer from './../components/home/footer'
 const gridExamplesPage = () => {
     return (
+        <div>
+            <Navbar />
         <div style={{ width: "98%", }}>
         <MDBRow style={{ width: "98%",}}>
             <MDBCol xl="8" >
@@ -99,6 +102,8 @@ const gridExamplesPage = () => {
                 </div>
             </MDBCol>
         </MDBRow>
+    </div>
+    <Footer />
     </div>
     );
 }

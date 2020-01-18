@@ -3,6 +3,7 @@ import style from '../styles/saylani_online_masajid.module.scss'
 import Grid from '@material-ui/core/Grid';
 import { MDBIcon } from "mdbreact";
 import Navbar from './../components/home/nabvar'
+import Footer from './../components/home/footer'
 
 const SaylaniOnlineMasajid = () => (
     <div className="mainDiv">
@@ -160,6 +161,7 @@ const SaylaniOnlineMasajid = () => (
                 </center>
             </Grid>
         </Grid>
+        <Footer />
     </div>
 )
 

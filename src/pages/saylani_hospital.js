@@ -1,9 +1,11 @@
 import React from "react"
 import style from "../styles/saylani_hospital.module.scss"
 import HospitalImage from "./../images/Saylani-Clinic-Hospital.jpg"
-
+import Navbar from './../components/home/nabvar'
+import Footer from './../components/home/footer'
 const SaylaniHospital = () => (
   <div className={style.maindiv}>
+    <Navbar />
     <img src={HospitalImage} width="100%" />
     <br/>
     <br/>
@@ -66,6 +68,7 @@ For indoor admissions, arrangements are made with other private and public hospi
 
 
     </p>
+    <Footer />
   </div>
 )
 

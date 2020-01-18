@@ -2,6 +2,7 @@ import React from "react"
 import { MDBContainer, MDBRow, MDBCol } from "mdbreact"
 import NewsImg from "./../images/news.jpg"
 import Navbar from './../components/home/nabvar'
+import Footer from './../components/home/footer'
 
 import Lightbox from "react-image-lightbox"
 // import "./Lightbox.css";
@@ -95,6 +96,7 @@ class News extends React.Component {
           <p className="p1">SWIT</p>
           <br />
         </MDBContainer>
+        <Footer />
       </div>
     )
   }
