@@ -29,7 +29,7 @@ const Navbar = () => (
     <ul class="menu">
       <div style={{ height: 40, marginTop: "15px" }}>
         <li>
-          <a href="#">Home</a>
+          <a href="/">Home</a>
         </li>
         <li>
           <label for="drop-1" class="toggle">
@@ -107,7 +107,7 @@ const Navbar = () => (
                   <a href="#">Saylani Clinic Hospital</a>
                 </li>
                 <li class="natestNav">
-                  <a href="#">Medical Intern Form</a>
+                  <a href="madical_internship_form">Medical Intern Form</a>
                 </li>
               </ul>
             </li>
@@ -158,7 +158,7 @@ const Navbar = () => (
                   <a href="#">Quran App (Tafteesh)</a>
                 </li>
                 <li class="natestNav">
-                  <a href="#">Online Quran Registration</a>
+                  <a href="online_quran_registration">Online Quran Registration</a>
                 </li>
               </ul>
             </li>
@@ -166,7 +166,7 @@ const Navbar = () => (
               <a href="#">Books</a>
             </li>
             <li>
-              <a href="#">Masajid Online Admission Form</a>
+              <a href="saylani_online_masajid">Saylani Online Masjid</a>
             </li>
           </ul>
         </li>
@@ -186,10 +186,10 @@ const Navbar = () => (
           </ul>
         </li>
         <li>
-          <a href="#">Media</a>
+          <a href="media">Media</a>
         </li>
         <li>
-          <a href="#">News</a>
+          <a href="news">News</a>
         </li>
         <li>
           <label for="drop-1" class="toggle">
@@ -213,7 +213,7 @@ const Navbar = () => (
           </ul>
         </li>
         <li>
-          <a href="#">Contact Us</a>
+          <a href="contact_us">Contact Us</a>
         </li>
       </div>
     </ul>

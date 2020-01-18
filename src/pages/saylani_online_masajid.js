@@ -2,9 +2,11 @@ import React from "react"
 import style from '../styles/saylani_online_masajid.module.scss'
 import Grid from '@material-ui/core/Grid';
 import { MDBIcon } from "mdbreact";
+import Navbar from './../components/home/nabvar'
 
 const SaylaniOnlineMasajid = () => (
     <div className="mainDiv">
+        <Navbar />
         <Grid container>
             <Grid item lg={12} md={12} sm={12} xs={12}>
                 <div className={style.heading} >
