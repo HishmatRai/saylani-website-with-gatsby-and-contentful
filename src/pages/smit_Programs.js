@@ -1,13 +1,17 @@
 import React from "react"
-import style from '../styles/saylani_annual_report.module.scss'
+import style from '../styles/smit_Programs.module.scss'
+import Sp from './../images/SMIT-Programs.jpeg'
 
-
-const SaylaniAnnualReport = () => (
+const SmitProgram = () => (
 <div className={style.maindiv}>
-    <p>Welcome to your new Gatsby site.</p>
-    <p>Now go build something great.</p>
-   
+    <img src={Sp} width='100%'/>
+    <br/>
+    <br/>
+    
+    <p className={style.p1} >
+    SMIT Programs
+    </p>   
     </div>
 )
 
-export default SaylaniAnnualReport
+export default SmitProgram

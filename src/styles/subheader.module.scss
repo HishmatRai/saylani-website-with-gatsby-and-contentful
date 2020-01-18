@@ -1,0 +1,27 @@
+.maindiv{
+    background-color: #316DC3;
+    padding: 5px;
+    // display: flex;
+    // justify-content: space-around;
+}
+
+.text {
+    color: white;
+}
+.btn {
+    border: 1px solid green;
+    color: green;
+
+}
+ul {
+    display: flex;    
+    justify-content: space-around;
+}
+
+ul li {
+    list-style-type:none;
+    // flex-direction: row;
+}
+
+
+
