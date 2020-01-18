@@ -2,10 +2,12 @@ import React from "react"
 import style from '../styles/books.module.scss'
 import BookCard from "../components/BooksCard/booksCard"
 import Grid from '@material-ui/core/Grid';
+import Navbar from './../components/home/nabvar'
 
 
 const Books = () => (
     <div  >
+        <Navbar />
 
         <img width="100%" src="https://www.saylaniwelfare.com/uploads/2018-14-121544796511.jpg" />
 
