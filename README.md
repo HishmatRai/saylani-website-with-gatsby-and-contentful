@@ -1,7 +1,7 @@
 <!-- AUTO-GENERATED-CONTENT:START (STARTER) -->
 <p align="center">
   <a href="https://www.saylaniwelfare.com/home">
-    <img alt="Saylani Welfare" src="https://www.saylaniwelfare.com/public_html/images/saylani/Saylani-logo.png" width="100" />
+    <img alt="Saylani Welfare" src="https://www.saylaniwelfare.com/public_html/images/saylani/Saylani-logo.png" width="500" />
   </a>
 </p>
 <h1 align="center">
