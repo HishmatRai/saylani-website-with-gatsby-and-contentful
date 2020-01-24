@@ -1,6 +1,9 @@
 import React from "react"
 import { MDBContainer, MDBRow, MDBCol } from "mdbreact"
 import NewsImg from "./../images/news.jpg"
+import Navbar from './../components/home/nabvar'
+import Footer from './../components/home/footer'
+
 import Lightbox from "react-image-lightbox"
 // import "./Lightbox.css";
 import "../styles/news.css"
@@ -30,7 +33,9 @@ class News extends React.Component {
       photoIndex++
       const privateKey = photoIndex
       return (
+     
         <MDBCol md="3" key={photoIndex}>
+         
           <figure>
             <img
               src={imageSrc}
@@ -50,6 +55,9 @@ class News extends React.Component {
     const { photoIndex, isOpen, images } = this.state
     return (
       <div className="maindiv">
+           <div>
+           <Navbar />
+        </div>
         <img width="100%" src={NewsImg} />
         <MDBContainer className="mt-5" style={{ backgroundColor: "#F7F8FA" }}>
           <div className="secmaindiv">
@@ -88,6 +96,7 @@ class News extends React.Component {
           <p className="p1">SWIT</p>
           <br />
         </MDBContainer>
+        <Footer />
       </div>
     )
   }

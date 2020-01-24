@@ -2,11 +2,21 @@ import React from "react"
 import { Link } from "gatsby"
 import homeStyle from "../styles/index.module.scss"
 import "../styles/index.module.scss"
+
 import "@fortawesome/fontawesome-free/css/all.min.css"
 
 // import Introduction from './introduction'
 
 import Navbar from "./../components/home/nabvar"
+
+import '@fortawesome/fontawesome-free/css/all.min.css';
+import '@fortawesome/fontawesome-free/css/all.min.css'; 
+import'bootstrap-css-only/css/bootstrap.min.css';
+ import'mdbreact/dist/css/mdb.css';
+
+ import Footer from './../components/home/footer'
+import Navbar from './../components/home/nabvar'
+
 
 const IndexPage = () => (
   <div className={homeStyle.container}>
@@ -56,6 +66,31 @@ const IndexPage = () => (
           alleviating the financial troubles of the poor, giving people a chance
           to live a dignified life and spreading happiness.
         </p>
+
+    <div className={homeStyle.container}>
+    <Navbar />
+
+      <div >
+
+          <img src="https://www.saylaniwelfare.com/public_html/images/saylani/slider1.png" alt="slider" width="100%" />
+      </div>
+      <div>News</div>
+      <div className={homeStyle.introduction}>
+        <h2>
+          INTRO<span className={homeStyle.h2}>DUCTION</span>
+        </h2>
+        <div className={homeStyle.titleIcon}>
+          <img src={require("../assets/images/icons/favicon.png")} alt="logo" />
+        </div>
+        <div>
+          <p>
+            Established in May 1999 by famous spiritual and religious scholar
+            Maulana Bashir Ahmed Farooqui, Saylani Welfare International Trust
+            was built on the fundamentals of breaking the cycle of poverty,
+            alleviating the financial troubles of the poor, giving people a
+            chance to live a dignified life and spreading happiness.
+          </p>
+
 
         <p>
           We are an organization that believes in lighting up the lives of
@@ -309,7 +344,15 @@ const IndexPage = () => (
       <div className={homeStyle.titleIcon} style={{ marginBottom: "40px" }}>
         <img src={require("../assets/images/icons/favicon.png")} alt="logo" />
       </div>
+
       <div className={homeStyle.photos}></div>
+
+
+
+
+<Footer/>
+    
+
     </div>
   </div>
 )

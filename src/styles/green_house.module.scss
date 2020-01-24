@@ -1,0 +1,16 @@
+.p1{
+    margin-left: 100px;
+    margin-right: 100px;
+    text-align: justify;
+    font-family: sans-serif;
+    color: black;
+font-size: 14px;
+}
+
+@media only screen and (max-width: 996px) {
+    .p1 {
+      margin-left: 5px;
+      margin-right: 5px;
+
+    }
+  }

@@ -1,13 +1,15 @@
 import React from "react"
 import style from '../styles/smit_Programs.module.scss'
-
-
-const SmitPrograms = () => (
+import FacultyImg from './../images/faculty.jpeg'
+import Footer from './../components/home/footer'
+import Navbar from './../components/home/nabvar'
+const Faculty = () => (
 <div className={style.maindiv}>
-    <p>Welcome to your new Gatsby site.</p>
-    <p>Now go build something great.</p>
-   
+    <Navbar />
+    <img src={FacultyImg} width='100%'/>
+  
+   <Footer />
     </div>
 )
 
-export default SmitPrograms
+export default Faculty

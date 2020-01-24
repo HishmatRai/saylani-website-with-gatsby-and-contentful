@@ -1,10 +1,13 @@
 import React from "react"
 import style from "../styles/media.module.scss"
+import Navbar from './../components/home/nabvar'
+import Footer from './../components/home/footer'
 
 import mediaImg from "./../images/media.jpg"
 
 const Media = () => (
   <div className={style.maindiv}>
+    <Navbar />
     <img width="100%" src={mediaImg} />
     <div className={style.secmain}>
       <div className={style.vedio1}>
@@ -327,6 +330,7 @@ const Media = () => (
       </div>
       
     </div>
+    <Footer />
   </div>
 )
 
